@@ -1,14 +1,18 @@
+@import "./theme";
+@import "./font_primary";
+@import "./font_accent";
+@import "./components/navbar";
+@import "./components/body";
+@import "./components/h";
+
 body {
 	margin: 0;
 	padding: 0;
+
+	@extend .font-primary;
 }
 
 * {
 	margin: 0;
 	padding: 0;
 }
-
-@import "./theme";
-@import "./font";
-@import "./components/navbar";
-@import "./components/body";
