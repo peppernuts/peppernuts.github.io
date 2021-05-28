@@ -1,0 +1,8 @@
+.body-grid {
+	display: grid;
+	position: absolute;
+	grid-template-columns: 1fr 3fr 1fr;
+	width: 80%;
+	left: 10%;
+	top: 86px;
+}

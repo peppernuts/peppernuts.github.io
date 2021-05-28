@@ -1,0 +1,36 @@
+.navbar {
+	width: 100%;
+	margin: 0;
+	box-shadow: 0px 5px 10px -7px black;
+
+	position: fixed;
+}
+
+.navbar-content {
+	width: 80%;
+	margin: auto;
+}
+
+.navbar-item {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.navbar-button {
+	@extend .navbar-item;
+	height: 70px;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-decoration: none;
+
+	font-family: "Hughes";
+	font-size: 26px;
+	color: $text-main;
+	font-weight: 300;
+
+	paint-order: stroke fill;
+	-webkit-text-stroke: $text-border .1em;
+	-webkit-font-smoothing: antialiased;
+}
