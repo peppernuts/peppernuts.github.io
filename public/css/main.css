@@ -60,6 +60,10 @@
   padding: 1em;
 }
 
+a {
+  color: aqua;
+}
+
 body {
   margin: 0;
   padding: 0;
