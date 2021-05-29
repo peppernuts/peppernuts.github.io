@@ -15,6 +15,9 @@
   width: 100%;
   margin: 0;
   box-shadow: 0px 5px 10px -7px black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #352c20;
   position: fixed;
 }
 
@@ -60,6 +63,8 @@
 body {
   margin: 0;
   padding: 0;
+  background: #61523e;
+  color: #bcfff1;
 }
 
 * {
